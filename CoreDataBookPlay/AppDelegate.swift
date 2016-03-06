@@ -33,6 +33,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	
 	@IBAction func runScenario(sender: AnyObject) {
 		print("hello, run scenario")
+		let scenario = AttributeRelationshipConflict()
+		scenario.prepareSeedData()
+		scenario.run()
 	}
 }
 

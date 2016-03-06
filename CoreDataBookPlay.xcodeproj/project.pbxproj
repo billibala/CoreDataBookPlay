@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98B56901C8841A00064E9C2 /* ModelConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B568F1C8841A00064E9C2 /* ModelConfigurator.swift */; };
+		A98B56921C88484C0064E9C2 /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B56911C88484C0064E9C2 /* NSManagedObjectContext+Extensions.swift */; };
+		A98B56971C8849730064E9C2 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B56931C8849730064E9C2 /* Project+CoreDataProperties.swift */; };
+		A98B56981C8849730064E9C2 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B56941C8849730064E9C2 /* Project.swift */; };
+		A98B56991C8849730064E9C2 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B56951C8849730064E9C2 /* Message+CoreDataProperties.swift */; };
+		A98B569A1C8849730064E9C2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B56961C8849730064E9C2 /* Message.swift */; };
+		A98B569C1C8849B20064E9C2 /* NSManagedObjectContext+ModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B569B1C8849B20064E9C2 /* NSManagedObjectContext+ModelFactory.swift */; };
+		A9BFD4051C86F0F80030C861 /* AttributeRelationshipConflict.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFD4041C86F0F80030C861 /* AttributeRelationshipConflict.swift */; };
+		A9BFD4071C86F1040030C861 /* AttributeAttributeConflict.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFD4061C86F1040030C861 /* AttributeAttributeConflict.swift */; };
+		A9BFD4091C86F12D0030C861 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFD4081C86F12D0030C861 /* Scenario.swift */; };
 		A9C4AE621C82908F00BC76F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AE611C82908F00BC76F4 /* AppDelegate.swift */; };
 		A9C4AE651C82908F00BC76F4 /* CoreDataBookPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AE631C82908F00BC76F4 /* CoreDataBookPlay.xcdatamodeld */; };
 		A9C4AE671C82908F00BC76F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C4AE661C82908F00BC76F4 /* Assets.xcassets */; };
@@ -15,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A98B568F1C8841A00064E9C2 /* ModelConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelConfigurator.swift; sourceTree = "<group>"; };
+		A98B56911C88484C0064E9C2 /* NSManagedObjectContext+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extensions.swift"; sourceTree = "<group>"; };
+		A98B56931C8849730064E9C2 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A98B56941C8849730064E9C2 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		A98B56951C8849730064E9C2 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A98B56961C8849730064E9C2 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A98B569B1C8849B20064E9C2 /* NSManagedObjectContext+ModelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+ModelFactory.swift"; sourceTree = "<group>"; };
+		A9BFD4041C86F0F80030C861 /* AttributeRelationshipConflict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeRelationshipConflict.swift; sourceTree = "<group>"; };
+		A9BFD4061C86F1040030C861 /* AttributeAttributeConflict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeAttributeConflict.swift; sourceTree = "<group>"; };
+		A9BFD4081C86F12D0030C861 /* Scenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
 		A9C4AE5E1C82908F00BC76F4 /* CoreDataBookPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBookPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C4AE611C82908F00BC76F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9C4AE641C82908F00BC76F4 /* CoreDataBookPlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBookPlay.xcdatamodel; sourceTree = "<group>"; };
@@ -35,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9BFD4031C86F0D30030C861 /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				A9BFD4041C86F0F80030C861 /* AttributeRelationshipConflict.swift */,
+				A9BFD4061C86F1040030C861 /* AttributeAttributeConflict.swift */,
+				A9BFD4081C86F12D0030C861 /* Scenario.swift */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
 		A9C4AE551C82908F00BC76F4 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A9C4AE711C83967800BC76F4 /* Models */,
+				A9BFD4031C86F0D30030C861 /* Scenarios */,
 				A9C4AE611C82908F00BC76F4 /* AppDelegate.swift */,
 				A9C4AE661C82908F00BC76F4 /* Assets.xcassets */,
 				A9C4AE681C82908F00BC76F4 /* MainMenu.xib */,
@@ -68,6 +99,13 @@
 			isa = PBXGroup;
 			children = (
 				A9C4AE721C8396F200BC76F4 /* ModelManager.swift */,
+				A98B568F1C8841A00064E9C2 /* ModelConfigurator.swift */,
+				A98B56911C88484C0064E9C2 /* NSManagedObjectContext+Extensions.swift */,
+				A98B569B1C8849B20064E9C2 /* NSManagedObjectContext+ModelFactory.swift */,
+				A98B56931C8849730064E9C2 /* Project+CoreDataProperties.swift */,
+				A98B56941C8849730064E9C2 /* Project.swift */,
+				A98B56951C8849730064E9C2 /* Message+CoreDataProperties.swift */,
+				A98B56961C8849730064E9C2 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,9 +180,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98B56991C8849730064E9C2 /* Message+CoreDataProperties.swift in Sources */,
+				A9BFD4071C86F1040030C861 /* AttributeAttributeConflict.swift in Sources */,
 				A9C4AE621C82908F00BC76F4 /* AppDelegate.swift in Sources */,
+				A98B569C1C8849B20064E9C2 /* NSManagedObjectContext+ModelFactory.swift in Sources */,
 				A9C4AE651C82908F00BC76F4 /* CoreDataBookPlay.xcdatamodeld in Sources */,
+				A98B56981C8849730064E9C2 /* Project.swift in Sources */,
+				A9BFD4091C86F12D0030C861 /* Scenario.swift in Sources */,
+				A9BFD4051C86F0F80030C861 /* AttributeRelationshipConflict.swift in Sources */,
+				A98B56901C8841A00064E9C2 /* ModelConfigurator.swift in Sources */,
 				A9C4AE731C8396F200BC76F4 /* ModelManager.swift in Sources */,
+				A98B569A1C8849730064E9C2 /* Message.swift in Sources */,
+				A98B56971C8849730064E9C2 /* Project+CoreDataProperties.swift in Sources */,
+				A98B56921C88484C0064E9C2 /* NSManagedObjectContext+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +333,7 @@
 				A9C4AE701C82908F00BC76F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

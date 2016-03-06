@@ -8,6 +8,10 @@
 
 import Cocoa
 
+enum ModelError: ErrorType {
+	case EmptyResult
+}
+
 /// Creates managed object context and prepare new SQLite store.
 class ModelManager {
 	let storeURL: NSURL
@@ -31,6 +35,7 @@ class ModelManager {
 		// create file URL
 		let appSupportURL = ModelManager.applicationDocumentsDirectory
 		storeURL = appSupportURL.URLByAppendingPathComponent("\(playPurpose)/CoreDataBookPlay.sqlite")
+		print("file path: \(storeURL)")
 		self.playPurpose = playPurpose
 	}
 	
@@ -50,6 +55,7 @@ class ModelManager {
 			let nserror = error as NSError
 			if nserror.code == NSFileReadNoSuchFileError {
 				try fileManager.createDirectoryAtPath(parentPath.path!, withIntermediateDirectories: true, attributes: nil)
+				return
 			}
 			throw error
 		}
